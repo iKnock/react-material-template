@@ -22,10 +22,10 @@ const useStyles = makeStyles((theme) => ({
     },
     appBarWrapper: {
         width: '80%',
-        margin: '0 auto'
+        margin: '0 auto',
     },
     icon: {
-        color: '#fff',
+        color: '#dd9',
         fontSize: '2rem',
     },
     titleColor: {

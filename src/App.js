@@ -17,8 +17,8 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className="App">
-        <Landing />        
+      <div>
+        <Landing />
       </div>
     </ThemeProvider>
   );

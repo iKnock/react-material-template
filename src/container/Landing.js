@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
         minHeight: '100vh',
         backgroundImage: `url(${process.env.PUBLIC_URL + '/image/main-header.jpg'})`,
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
     }
 }));
 
@@ -24,5 +24,4 @@ export default function Landing() {
             <PlaceToVisit />
         </div>
     );
-
 }
